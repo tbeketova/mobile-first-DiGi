@@ -1,0 +1,12 @@
+{
+	"version": 3,
+	"file": "fonts.css",
+	"sources": [
+		"../sass/fonts.scss"
+	],
+	"sourcesContent": [
+		"@font-face {\r\n  font-family: 'Dosis-Light';\r\n  src: url('../fonts/Dosis-Light.woff2') format('woff2'),\r\n      url('../fonts/Dosis-Light.woff') format('woff');\r\n  font-weight: 300;\r\n  font-style: normal;\r\n}\r\n\r\n@font-face {\r\n  font-family: 'Dosis-Regular';\r\n  src: url('../fonts/Dosis-Regular.woff2') format('woff2'),\r\n      url('../fonts/Dosis-Regular.woff') format('woff');\r\n  font-weight: 400;\r\n  font-style: normal;\r\n}\r\n\r\n@font-face {\r\n  font-family: 'RobotoCondensed-Regular';\r\n  src: url('../fonts/RobotoCondensed-Regular.woff2') format('woff2'),\r\n      url('../fonts/RobotoCondensed-Regular.woff2') format('woff');\r\n  font-weight: 400;\r\n  font-style: normal;\r\n}\r\n\r\n@font-face {\r\n  font-family: 'RobotoCondensed-Bold';\r\n  src: url('../fonts/RobotoCondensed-Bold.woff2') format('woff2'),\r\n      url('../fonts/RobotoCondensed-Bold.woff') format('woff');\r\n  font-weight: 700;\r\n  font-style: normal;\r\n}\r\n\r\n@font-face {\r\n  font-family: 'Roboto-Medium';\r\n  src: url('../fonts/Roboto-Medium.woff2') format('woff2'),\r\n      url('../fonts/Roboto-Medium.woff') format('woff');\r\n  font-weight: 500;\r\n  font-style: normal;\r\n}\r\n\r\n@font-face {\r\n  font-family: 'Roboto-Regular';\r\n  src: url('../fonts/Roboto-Regular.woff2') format('woff2'),\r\n      url('../fonts/Roboto-Regular.woff2') format('woff');\r\n  font-weight: 400;\r\n  font-style: normal;\r\n}"
+	],
+	"names": [],
+	"mappings": "AAAA,UAAU;EACR,WAAW,EAAE,aAAa;EAC1B,GAAG,EAAE,iCAAiC,CAAC,eAAe,EAClD,gCAAgC,CAAC,cAAc;EACnD,WAAW,EAAE,GAAG;EAChB,UAAU,EAAE,MAAM;;;AAGpB,UAAU;EACR,WAAW,EAAE,eAAe;EAC5B,GAAG,EAAE,mCAAmC,CAAC,eAAe,EACpD,kCAAkC,CAAC,cAAc;EACrD,WAAW,EAAE,GAAG;EAChB,UAAU,EAAE,MAAM;;;AAGpB,UAAU;EACR,WAAW,EAAE,yBAAyB;EACtC,GAAG,EAAE,6CAA6C,CAAC,eAAe,EAC9D,6CAA6C,CAAC,cAAc;EAChE,WAAW,EAAE,GAAG;EAChB,UAAU,EAAE,MAAM;;;AAGpB,UAAU;EACR,WAAW,EAAE,sBAAsB;EACnC,GAAG,EAAE,0CAA0C,CAAC,eAAe,EAC3D,yCAAyC,CAAC,cAAc;EAC5D,WAAW,EAAE,GAAG;EAChB,UAAU,EAAE,MAAM;;;AAGpB,UAAU;EACR,WAAW,EAAE,eAAe;EAC5B,GAAG,EAAE,mCAAmC,CAAC,eAAe,EACpD,kCAAkC,CAAC,cAAc;EACrD,WAAW,EAAE,GAAG;EAChB,UAAU,EAAE,MAAM;;;AAGpB,UAAU;EACR,WAAW,EAAE,gBAAgB;EAC7B,GAAG,EAAE,oCAAoC,CAAC,eAAe,EACrD,oCAAoC,CAAC,cAAc;EACvD,WAAW,EAAE,GAAG;EAChB,UAAU,EAAE,MAAM"
+}

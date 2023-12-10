@@ -1,0 +1,411 @@
+@import 'fonts';
+@import 'var';
+
+html {
+  box-sizing: border-box;
+}
+
+*,
+*::after,
+*::before {
+  box-sizing: inherit;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  margin: 0;
+}
+
+ul,
+li {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.page {
+  height: 100%;
+  font-family: 'Roboto-Regular', 'Arial', serif;
+  font-size: 15px;
+  font-weight: 400;
+  line-height: 17px;
+}
+
+.page-body {
+  min-width: 320px;
+  min-height: 100%;
+  display: grid;
+  grid-template-rows: min-content 1fr min-content;
+  align-content: start;
+  margin: 0;
+}
+
+.container {
+  padding: 0 20px;
+}
+
+/*Header*/
+.header {
+  background-color: $accent;
+
+  &__inner {
+    min-height: 80px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+}
+
+.logo__link {
+  padding-left: 8px;
+}
+
+.menu__btn {
+  width: 40px;
+  height: 40px;
+  background-repeat: 3px;
+  background-color: #fff;
+  border: none;
+  position: relative;
+  padding: 0;
+
+  &::after {
+    content: "";
+    width: 12px;
+    height: 2px;
+    top: 15px;
+    left: 14px;
+    background-repeat: 1px;
+    position: absolute;
+    background-color: $accent;
+    box-shadow: 0 4px 0 0 $accent, 0 8px 0 0 $accent;
+  }
+}
+
+/*Slider*/
+.head {
+  height: 193px;
+  background-image: url(../images/head-desktop-img.png);
+  background-repeat: no-repeat;
+  position: center center;
+  background-size: cover;
+}
+
+.top-slider {
+  background: rgba(33, 33, 33, 0.50);
+  
+  &__item {
+    color: #fff;
+    text-align: center;
+    min-height: 193px;
+  }
+
+  &__title {
+    font-family: 'RobotoCondensed-Regular', serif;
+    font-size: 28px;
+    font-weight: 400;
+    line-height: 28px;
+    text-transform: uppercase;
+    padding: 42px 0 28px;   
+    max-width: 169px;
+    /*чтоби текст слайдера переносился на новую строку*/
+    margin: 0 auto;
+    position: relative;
+
+    &::after {  /*линия в слайдере*/
+      content: '';
+      position: absolute;
+      top: 118px;
+      left: 0;
+      right: 0;
+      width: 61px;
+      height: 8px;
+      margin: 0 auto;
+      background-color: $text-color;
+    }
+  }
+
+  &__text {
+    display: none;
+  }
+
+  &__btn {
+    background-color: $accent;
+    color: $text-button;
+    padding: 16px 45px;
+  }
+
+  /*Dots*/
+.slick-dots {
+  display: flex;
+  justify-content: center;
+  position: absolute;
+  bottom: 20px;
+  left: 0; //размещение дотсов по центру
+  right: 0;
+
+  .slick-active {
+    button {
+      background-color: transparent;
+      border: 2px solid green;
+    }
+  }
+
+  button {
+    font-size: 0;
+    border: none;
+    background-color: $accent;
+    padding: 0;
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    margin: 0 10px;
+
+  }
+}
+}
+
+/*Button*/
+.button {
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 18px;
+  width: 200px;
+  border: none;
+  text-transform: uppercase;
+  display: none;
+  border-radius: 2px;
+  cursor: pointer;
+}
+
+/*Promo*/
+.promo {
+  background-color: $accent;
+  
+  &__inner {
+    min-height: 301px;
+    color: #fff;
+    text-align: center;
+  }
+
+  &__title {
+    padding-top: 40px;
+    @extend %roboto-500;
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 24px;
+    margin-bottom: 10px;
+  }
+
+  &__text {
+    font-size: 16px;
+    font-weight: 300;
+    line-height: 18px;
+    margin-bottom: 40px;
+  }
+
+  &__btn {
+    background-color: $text-button;
+    color: $accent;
+    padding: 16px 0;
+    text-decoration: none;
+    margin: 0 auto 40px;
+  }
+}
+
+/*Services*/
+.title {
+  
+}
+
+/*320px*/
+@media (min-width: 320px) {
+  .promo .button {
+    display: block;
+  }
+}
+
+/*640px*/
+@media (min-width: 640px) {
+  .container {
+    padding: 0 30px;
+  }
+
+  .header {
+    &__inner {
+      min-height: 100px;
+    }
+  }
+
+  .logo__link {
+    padding-left: 18px;
+  }
+
+  .head {
+  min-height: 386px;
+  }
+
+  .top-slider {
+    min-height: 386px;
+
+    &__item {
+      min-height: 386px;
+    }
+
+    &__title {
+      font-size: 60px;
+      line-height: 60px;
+      max-width: 520px;
+      padding: 50px 0 15px;
+      margin-bottom: 30px;
+
+      &::after {  /*линия в слайдере*/
+        top: 175px;
+        left: 0;
+        right: 0;
+        width: 61px;
+        height: 8px;
+        margin: 0 auto;
+        background-color: $text-color;
+      }
+    }
+  }
+
+  .button {
+    display: block;
+    margin: 0 auto 113px;
+  }
+
+  .promo__inner {
+    min-height: 254px;
+    
+  }
+
+}
+
+/*768px*/
+@media (min-width: 768px) {
+  .container {
+    padding: 0 40px;
+  }
+
+  .logo__link {
+    padding-left: 0px;
+  }
+
+  .head {
+    min-height: 465px;
+    }
+  
+  .top-slider {
+    &__item {
+      min-height: 465px;
+    }
+
+    &__title {
+      padding: 87px 0 0;
+
+      &::after {
+        display: none;
+      }
+    }
+
+    &__text {
+      display: block;        
+      width: 623px;
+      margin: 0 auto 31px;
+      font-size: 18px;
+      line-height: 20px;
+    }
+  }
+
+  .promo {
+    &__inner {
+      min-height: 97px;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      
+      &-box {
+        width: 427px;
+        text-align: start;
+      }
+    }
+
+    &__btn {
+      margin: 0;
+    }
+  }
+}
+
+/*1024px*/
+@media (min-width: 1024px) {
+  .head {
+    min-height: 623px;
+    }
+  
+  .top-slider {
+    &__item {
+      min-height: 623px;
+    }
+
+    &__title {
+      padding: 101px 0 0;
+      font-size: 84px;
+      line-height: 84px;
+      letter-spacing: 2px;
+    } 
+
+
+      &::after {
+        display: none;
+      }
+    
+
+    &__text {
+      margin: 0 auto 12px;
+    }
+  }
+}
+
+/*1440px*/
+@media (min-width: 1440px) {
+  .container {
+    padding: 0px 150px 0px 61px;
+  }
+
+  .head {
+    min-height: 668px;
+  }
+  
+  .top-slider {
+    &__item {
+      min-height: 668px;
+    }
+
+    &__title {
+      padding: 107px 0 18 px;
+      font-size: 96px;
+      line-height: 96px;
+    }
+
+    &__text {
+      width: 867px;
+      margin: 0 auto 28px;
+      font-size: 24px;
+      line-height: 26px;
+    }
+  }
+
+  .promo {
+    &__inner {
+      border: 2px solid greenyellow;
+      margin: 0 79px 0 89px;
+    }
+  }
+}
