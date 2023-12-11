@@ -5,8 +5,8 @@
 		"../sass/var.scss"
 	],
 	"sourcesContent": [
-		"$accent: #2B4074;\r\n$text-color: #4A4A4A;\r\n$text-button: #F9F6E5;\r\n\r\n/*для Extend*/\r\n%dosis-300 {\r\n  font-family: 'Dosis-Light';\r\n  font-weight: 300;\r\n}\r\n\r\n%roboto-500 {\r\n  font-family: 'Roboto-Medium';\r\n  font-weight: 500;\r\n}"
+		"$accent: #2B4074;\r\n$text-color: #4A4A4A;\r\n$text-button: #F9F6E5;\r\n$special-color: #797979;\r\n$border-color: #F9F6E5;\r\n\r\n/*для Extend*/\r\n%dosis-300 {\r\n  font-family: 'Dosis-Light';\r\n  font-weight: 300;\r\n}\r\n\r\n%roboto-500 {\r\n  font-family: 'Roboto-Medium';\r\n  font-weight: 500;\r\n}"
 	],
 	"names": [],
-	"mappings": ";AAIA,cAAc"
+	"mappings": ";AAMA,cAAc"
 }

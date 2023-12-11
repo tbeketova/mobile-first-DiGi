@@ -1,0 +1,138 @@
+@charset "UTF-8";
+@font-face {
+  font-family: 'Dosis-Light';
+  src: url("../fonts/Dosis-Light.woff2") format("woff2"), url("../fonts/Dosis-Light.woff") format("woff");
+  font-weight: 300;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Dosis-Regular';
+  src: url("../fonts/Dosis-Regular.woff2") format("woff2"), url("../fonts/Dosis-Regular.woff") format("woff");
+  font-weight: 400;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'RobotoCondensed-Regular';
+  src: url("../fonts/RobotoCondensed-Regular.woff2") format("woff2"), url("../fonts/RobotoCondensed-Regular.woff2") format("woff");
+  font-weight: 400;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'RobotoCondensed-Bold';
+  src: url("../fonts/RobotoCondensed-Bold.woff2") format("woff2"), url("../fonts/RobotoCondensed-Bold.woff") format("woff");
+  font-weight: 700;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Roboto-Medium';
+  src: url("../fonts/Roboto-Medium.woff2") format("woff2"), url("../fonts/Roboto-Medium.woff") format("woff");
+  font-weight: 500;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Roboto-Regular';
+  src: url("../fonts/Roboto-Regular.woff2") format("woff2"), url("../fonts/Roboto-Regular.woff2") format("woff");
+  font-weight: 400;
+  font-style: normal;
+}
+
+/*для Extend*/
+/* line 4, ../../../../../../Html lessons/November 2023/10-mobile-first-DiGi/sass/global.scss */
+html {
+  box-sizing: border-box;
+}
+
+/* line 8, ../../../../../../Html lessons/November 2023/10-mobile-first-DiGi/sass/global.scss */
+*,
+*::after,
+*::before {
+  box-sizing: inherit;
+}
+
+/* line 14, ../../../../../../Html lessons/November 2023/10-mobile-first-DiGi/sass/global.scss */
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  margin: 0;
+}
+
+/* line 24, ../../../../../../Html lessons/November 2023/10-mobile-first-DiGi/sass/global.scss */
+ul,
+li {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+/* line 31, ../../../../../../Html lessons/November 2023/10-mobile-first-DiGi/sass/global.scss */
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+/* line 36, ../../../../../../Html lessons/November 2023/10-mobile-first-DiGi/sass/global.scss */
+.page {
+  height: 100%;
+  font-family: 'Roboto-Regular', 'Arial', serif;
+  font-size: 15px;
+  font-weight: 400;
+  line-height: 17px;
+}
+
+/* line 44, ../../../../../../Html lessons/November 2023/10-mobile-first-DiGi/sass/global.scss */
+.page-body {
+  min-width: 320px;
+  min-height: 100%;
+  display: grid;
+  grid-template-rows: min-content 1fr min-content;
+  align-content: start;
+  margin: 0;
+}
+
+/* line 53, ../../../../../../Html lessons/November 2023/10-mobile-first-DiGi/sass/global.scss */
+.container {
+  padding: 0 20px;
+}
+
+/*640px*/
+@media (min-width: 640px) {
+  /* line 58, ../../../../../../Html lessons/November 2023/10-mobile-first-DiGi/sass/global.scss */
+  .container {
+    padding: 0 30px;
+  }
+}
+
+/*768px*/
+@media (min-width: 768px) {
+  /* line 64, ../../../../../../Html lessons/November 2023/10-mobile-first-DiGi/sass/global.scss */
+  .container {
+    padding: 0 40px;
+  }
+}
+
+/*1440px*/
+@media (min-width: 1440px) {
+  /* line 71, ../../../../../../Html lessons/November 2023/10-mobile-first-DiGi/sass/global.scss */
+  .container {
+    padding: 0px 150px 0px 61px;
+  }
+}
+
+/* line 76, ../../../../../../Html lessons/November 2023/10-mobile-first-DiGi/sass/global.scss */
+.title {
+  font-size: 24px;
+  font-weight: 400;
+  letter-spacing: 2px;
+  color: #2B4074;
+}
+
+/*# sourceMappingURL=global.css.map */
