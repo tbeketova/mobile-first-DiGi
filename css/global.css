@@ -41,7 +41,7 @@
   font-style: normal;
 }
 
-/*для Extend*/
+/*для Extend  @extend %roboto-700;*/
 /* line 4, ../../../../../../Html lessons/November 2023/10-mobile-first-DiGi/sass/global.scss */
 html {
   box-sizing: border-box;

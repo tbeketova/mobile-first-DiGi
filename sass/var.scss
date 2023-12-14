@@ -4,7 +4,7 @@ $text-button: #F9F6E5;
 $special-color: #797979;
 $border-color: #F9F6E5;
 
-/*для Extend*/
+/*для Extend  @extend %roboto-700;*/
 %dosis-300 {
   font-family: 'Dosis-Light';
   font-weight: 300;
@@ -12,5 +12,9 @@ $border-color: #F9F6E5;
 
 %roboto-500 {
   font-family: 'Roboto-Medium';
-  font-weight: 500;
+}
+
+%roboto-700 {
+  font-family: 'RobotoCondensed-Bold';
+  font-weight: 700;
 }
