@@ -135,4 +135,33 @@ a {
   color: #2B4074;
 }
 
+/*Button*/
+/* line 84, ../../../../../../Html lessons/November 2023/10-mobile-first-DiGi/sass/global.scss */
+.button {
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 18px;
+  width: 200px;
+  border: none;
+  text-transform: uppercase;
+  display: none;
+  border-radius: 2px;
+  cursor: pointer;
+}
+
+@media (min-width: 320px) {
+  /* line 96, ../../../../../../Html lessons/November 2023/10-mobile-first-DiGi/sass/global.scss */
+  .promo .button {
+    display: block;
+  }
+}
+
+@media (min-width: 640px) {
+  /* line 101, ../../../../../../Html lessons/November 2023/10-mobile-first-DiGi/sass/global.scss */
+  .button {
+    display: block;
+    margin: 0 auto 113px;
+  }
+}
+
 /*# sourceMappingURL=global.css.map */

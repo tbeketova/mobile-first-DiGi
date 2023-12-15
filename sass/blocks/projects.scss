@@ -1,0 +1,37 @@
+.projects {
+  text-align: center;
+  /* background: linear-gradient(180deg, #2B4074 0%, rgba(43, 64, 116, 0.00) 100%); */
+
+  &__title {
+    text-align: center;
+    padding-top: 20px;
+    margin-bottom: 70px;
+    position: relative;
+    color: #fff;
+
+    &::after {
+      content: "";
+      position: absolute;
+      width: 100px;
+      height: 8px;
+      background-color: #fff;
+      top: 65px;
+      left: 0;
+      right: 0;
+      margin: 0 auto;
+      bottom: 0;
+    }
+  }
+
+  &__item {
+
+  
+  }
+  &__item-img {
+    min-height: 250px;
+    width: 268px;
+    background-repeat: no-repeat;
+    border-radius: 4px;
+  }
+  
+}

@@ -1,0 +1,192 @@
+/*Slider*/
+.head {
+  height: 193px;
+  background-image: url(../images/head-desktop-img.png);
+  background-repeat: no-repeat;
+  position: center center;
+  background-size: cover;
+}
+
+@media (min-width: 640px) {
+  .head {
+    min-height: 386px;
+  }
+}
+@media (min-width: 768px) {
+  .head {
+    min-height: 465px;
+  }
+}
+@media (min-width: 1024px) {
+  .head {
+    min-height: 623px;
+  }
+}
+@media (min-width: 1440px) {
+  .head {
+    min-height: 668px;
+  }
+}
+
+
+.top-slider {
+  background: rgba(33, 33, 33, 0.50);
+  
+  &__item {
+    color: #fff;
+    text-align: center;
+    min-height: 193px;
+  }
+
+  &__title {
+    font-family: 'RobotoCondensed-Regular', serif;
+    font-size: 28px;
+    font-weight: 400;
+    line-height: 28px;
+    text-transform: uppercase;
+    padding: 42px 0 28px;   
+    max-width: 169px;
+    /*чтоби текст слайдера переносился на новую строку*/
+    margin: 0 auto;
+    position: relative;
+
+    &::after {  /*линия в слайдере*/
+      content: '';
+      position: absolute;
+      top: 118px;
+      left: 0;
+      right: 0;
+      width: 61px;
+      height: 8px;
+      margin: 0 auto;
+      background-color: $text-color;
+    }
+  }
+
+  &__text {
+    display: none;
+  }
+
+  &__btn {
+    background-color: $accent;
+    color: $text-button;
+    padding: 16px 45px;
+  }
+
+  /*Dots*/
+.slick-dots {
+  display: flex;
+  justify-content: center;
+  position: absolute;
+  bottom: 20px;
+  left: 0; //размещение дотсов по центру
+  right: 0;
+
+  .slick-active {
+    button {
+      background-color: transparent;
+      border: 2px solid green;
+    }
+  }
+
+  /* button {
+    font-size: 0;
+    border: none;
+    background-color: $accent;
+    padding: 0;
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    margin: 0 10px;
+
+  } */
+}
+}
+@media (min-width: 640px) {
+  .top-slider {
+    min-height: 386px;
+
+    &__item {
+      min-height: 386px;
+    }
+
+    &__title {
+      font-size: 60px;
+      line-height: 60px;
+      max-width: 520px;
+      padding: 50px 0 15px;
+      margin-bottom: 30px;
+
+      &::after {  /*линия в слайдере*/
+        top: 175px;
+        left: 0;
+        right: 0;
+        width: 61px;
+        height: 8px;
+        margin: 0 auto;
+        background-color: $text-color;
+      }
+    }
+  }
+}
+@media (min-width: 768px) {
+  .top-slider {
+    &__item {
+      min-height: 465px;
+    }
+
+    &__title {
+      padding: 87px 0 0;
+
+      &::after {
+        display: none;
+      }
+    }
+
+    &__text {
+      display: block;        
+      width: 623px;
+      margin: 0 auto 31px;
+      font-size: 18px;
+      line-height: 20px;
+    }
+  }
+}
+@media (min-width: 1024px) {
+  .top-slider {
+    &__item {
+      min-height: 623px;
+    }
+
+    &__title {
+      padding: 101px 0 0;
+      font-size: 84px;
+      line-height: 84px;
+      letter-spacing: 2px;
+    } 
+      
+    &__text {
+      margin: 0 auto 12px;
+    }
+  }
+}
+@media (min-width: 1440px) {
+  .top-slider {
+    &__item {
+      min-height: 668px;
+    }
+
+    &__title {
+      padding: 107px 0 18 px;
+      font-size: 96px;
+      line-height: 96px;
+    }
+
+    &__text {
+      width: 867px;
+      margin: 0 auto 28px;
+      font-size: 24px;
+      line-height: 26px;
+    }
+  }
+}

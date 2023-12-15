@@ -1,0 +1,56 @@
+/*Header*/
+.header {
+  background-color: $accent;
+
+  &__inner {
+    min-height: 80px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+}
+@media (min-width: 640px) {
+  .header {
+    &__inner {
+      min-height: 100px;
+    }
+  }
+}
+
+
+.logo__link {
+  padding-left: 8px;
+}
+@media (min-width: 640px) {
+  .logo__link {
+    padding-left: 18px;
+  }
+}
+@media (min-width: 768px) {
+  .logo__link {
+    padding-left: 0px;
+  }
+}
+
+
+.menu__btn {
+  width: 40px;
+  height: 40px;
+  background-repeat: 3px;
+  background-color: #fff;
+  border: none;
+  position: relative;
+  padding: 0;
+
+  &::after {
+    content: "";
+    width: 12px;
+    height: 2px;
+    top: 15px;
+    left: 14px;
+    background-repeat: 1px;
+    position: absolute;
+    background-color: $accent;
+    box-shadow: 0 4px 0 0 $accent, 0 8px 0 0 $accent;
+  }
+}

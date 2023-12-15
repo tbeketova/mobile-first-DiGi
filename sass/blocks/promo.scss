@@ -1,0 +1,62 @@
+/*Promo*/
+.promo {
+  background-color: $accent;
+  
+  &__inner {
+    min-height: 301px;
+    color: #fff;
+    text-align: center;
+  }
+
+  &__title {
+    padding-top: 40px;
+    @extend %roboto-500;
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 24px;
+    margin-bottom: 10px;
+  }
+
+  &__text {
+    font-size: 16px;
+    font-weight: 300;
+    line-height: 18px;
+    margin-bottom: 40px;
+  }
+
+  &__btn {
+    background-color: $text-button;
+    color: $accent;
+    padding: 16px 0;
+    text-decoration: none;
+    margin: 0 auto 40px;
+  }
+}
+            
+@media (min-width: 768px) {
+  .promo {
+    &__inner {
+      min-height: 97px;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      
+      &-box {
+        width: 427px;
+        text-align: start;
+      }
+    }
+
+    &__btn {
+      margin: 0;
+    }
+  }
+}
+@media (min-width: 1440px) {
+  .promo {
+    &__inner {
+      margin-left: 89px;
+    }
+  }
+}
+

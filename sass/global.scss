@@ -79,3 +79,27 @@ a {
   letter-spacing: 2px;
   color: $accent;
 }
+
+/*Button*/
+.button {
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 18px;
+  width: 200px;
+  border: none;
+  text-transform: uppercase;
+  display: none;
+  border-radius: 2px;
+  cursor: pointer;
+}
+@media (min-width: 320px) {
+  .promo .button {
+    display: block;
+  }
+}
+@media (min-width: 640px) {
+  .button {
+    display: block;
+    margin: 0 auto 113px;
+  }
+}
