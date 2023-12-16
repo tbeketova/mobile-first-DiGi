@@ -1,6 +1,6 @@
 .projects {
   text-align: center;
-  /* background: linear-gradient(180deg, #2B4074 0%, rgba(43, 64, 116, 0.00) 100%); */
+  background: linear-gradient(180deg, #2B4074 0%, rgba(43, 64, 116, 0.00) 100%);
 
   &__title {
     text-align: center;
@@ -24,14 +24,122 @@
   }
 
   &__item {
+    margin-bottom: 18px;
+  }
 
-  
+  &__item img:hover {
+    opacity: 0.5;
+    
   }
+
   &__item-img {
-    min-height: 250px;
-    width: 268px;
-    background-repeat: no-repeat;
     border-radius: 4px;
+    margin-bottom: 20px;
   }
-  
+
+  &__item-link {
+    display: block;
+    font-size: 16px;
+    font-weight: 700;
+    letter-spacing: 2px;
+    color: $accent;
+    
+  }
+
+  &__item:last-child {
+    margin-bottom: 0;
+  }
+}
+
+@media (min-width: 640px) {
+  .projects {
+    &__title {
+      font-size: 48px;
+      font-weight: 400;
+      padding-top: 40px;
+      margin-bottom: 80px;
+
+      &::after {
+        top: 95px;
+      }
+    }
+
+    &__list {
+      margin-bottom: 86px;
+    }
+
+    &__item-link {
+      font-size: 20px;
+    }
+
+  }
+}
+
+@media (min-width: 748px) {
+  .projects {
+    &__title {
+      padding-top: 80px;
+      margin-bottom: 96px;
+
+      &::after {
+        top: 135px;
+      }
+    }
+    
+    &__list {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: space-between;
+      margin-bottom: 120px;
+    }
+
+    &__item:nth-last-child(-n+2){
+      margin-bottom: 0;
+    }
+
+    &__item-img {
+      width: 325px;
+      margin-bottom: 23px;
+    }
+
+    &__item-link {
+      font-size: 20px;
+      margin-bottom: 25px;
+    }
+
+    &__item-link:nth-last-child(-n+2) {
+      margin-bottom: 0;
+    }
+  }
+}
+
+@media (min-width: 1024px) {
+  .projects {
+    &__list {
+      margin-bottom: 80px;
+      padding: 0 140px;
+    }
+
+    &__item-img {
+      width: 325px;
+      margin-bottom: 29px;
+    }
+
+    &__item-link {
+      font-size: 16px;
+      margin-bottom: 25px;
+    }
+  }
+}
+
+@media (min-width: 1240px) {
+  .projects {
+    &__list {
+      flex-direction: row;
+      flex-wrap: nowrap;
+      padding: 0 50px;
+      margin-bottom: 80px;
+      gap: 10px;
+    }
+  }
 }

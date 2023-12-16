@@ -80,6 +80,12 @@ a {
 }
 
 /* line 36, ../../../../../../Html lessons/November 2023/10-mobile-first-DiGi/sass/global.scss */
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+/* line 41, ../../../../../../Html lessons/November 2023/10-mobile-first-DiGi/sass/global.scss */
 .page {
   height: 100%;
   font-family: 'Roboto-Regular', 'Arial', serif;
@@ -88,7 +94,7 @@ a {
   line-height: 17px;
 }
 
-/* line 44, ../../../../../../Html lessons/November 2023/10-mobile-first-DiGi/sass/global.scss */
+/* line 49, ../../../../../../Html lessons/November 2023/10-mobile-first-DiGi/sass/global.scss */
 .page-body {
   min-width: 320px;
   min-height: 100%;
@@ -98,14 +104,14 @@ a {
   margin: 0;
 }
 
-/* line 53, ../../../../../../Html lessons/November 2023/10-mobile-first-DiGi/sass/global.scss */
+/* line 58, ../../../../../../Html lessons/November 2023/10-mobile-first-DiGi/sass/global.scss */
 .container {
   padding: 0 20px;
 }
 
 /*640px*/
 @media (min-width: 640px) {
-  /* line 58, ../../../../../../Html lessons/November 2023/10-mobile-first-DiGi/sass/global.scss */
+  /* line 63, ../../../../../../Html lessons/November 2023/10-mobile-first-DiGi/sass/global.scss */
   .container {
     padding: 0 30px;
   }
@@ -113,7 +119,7 @@ a {
 
 /*768px*/
 @media (min-width: 768px) {
-  /* line 64, ../../../../../../Html lessons/November 2023/10-mobile-first-DiGi/sass/global.scss */
+  /* line 69, ../../../../../../Html lessons/November 2023/10-mobile-first-DiGi/sass/global.scss */
   .container {
     padding: 0 40px;
   }
@@ -121,13 +127,13 @@ a {
 
 /*1440px*/
 @media (min-width: 1440px) {
-  /* line 71, ../../../../../../Html lessons/November 2023/10-mobile-first-DiGi/sass/global.scss */
+  /* line 76, ../../../../../../Html lessons/November 2023/10-mobile-first-DiGi/sass/global.scss */
   .container {
     padding: 0px 150px 0px 61px;
   }
 }
 
-/* line 76, ../../../../../../Html lessons/November 2023/10-mobile-first-DiGi/sass/global.scss */
+/* line 81, ../../../../../../Html lessons/November 2023/10-mobile-first-DiGi/sass/global.scss */
 .title {
   font-size: 24px;
   font-weight: 400;
@@ -136,7 +142,7 @@ a {
 }
 
 /*Button*/
-/* line 84, ../../../../../../Html lessons/November 2023/10-mobile-first-DiGi/sass/global.scss */
+/* line 89, ../../../../../../Html lessons/November 2023/10-mobile-first-DiGi/sass/global.scss */
 .button {
   font-size: 18px;
   font-weight: 500;
@@ -150,14 +156,14 @@ a {
 }
 
 @media (min-width: 320px) {
-  /* line 96, ../../../../../../Html lessons/November 2023/10-mobile-first-DiGi/sass/global.scss */
+  /* line 101, ../../../../../../Html lessons/November 2023/10-mobile-first-DiGi/sass/global.scss */
   .promo .button {
     display: block;
   }
 }
 
 @media (min-width: 640px) {
-  /* line 101, ../../../../../../Html lessons/November 2023/10-mobile-first-DiGi/sass/global.scss */
+  /* line 106, ../../../../../../Html lessons/November 2023/10-mobile-first-DiGi/sass/global.scss */
   .button {
     display: block;
     margin: 0 auto 113px;

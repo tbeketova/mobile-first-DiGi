@@ -5,8 +5,8 @@
 		"../../sass/blocks/projects.scss"
 	],
 	"sourcesContent": [
-		".projects {\r\n  text-align: center;\r\n  /* background: linear-gradient(180deg, #2B4074 0%, rgba(43, 64, 116, 0.00) 100%); */\r\n\r\n  &__title {\r\n    text-align: center;\r\n    padding-top: 20px;\r\n    margin-bottom: 70px;\r\n    position: relative;\r\n    color: #fff;\r\n\r\n    &::after {\r\n      content: \"\";\r\n      position: absolute;\r\n      width: 100px;\r\n      height: 8px;\r\n      background-color: #fff;\r\n      top: 65px;\r\n      left: 0;\r\n      right: 0;\r\n      margin: 0 auto;\r\n      bottom: 0;\r\n    }\r\n  }\r\n\r\n  &__item {\r\n\r\n  \r\n  }\r\n  &__item-img {\r\n    min-height: 250px;\r\n    width: 268px;\r\n    background-repeat: no-repeat;\r\n    border-radius: 4px;\r\n  }\r\n  \r\n}"
+		""
 	],
 	"names": [],
-	"mappings": ";AAAA,AAAA,SAAS,CAAC;EACR,UAAU,EAAE,MAAM;EAClB,oFAAoF;CAkCrF;;;AAhCE,AAAD,gBAAQ,CAAC;EACP,UAAU,EAAE,MAAM;EAClB,WAAW,EAAE,IAAI;EACjB,aAAa,EAAE,IAAI;EACnB,QAAQ,EAAE,QAAQ;EAClB,KAAK,EAAE,IAAI;CAcZ;;;AAnBA,AAOC,gBAPM,AAOL,OAAO,CAAC;EACP,OAAO,EAAE,EAAE;EACX,QAAQ,EAAE,QAAQ;EAClB,KAAK,EAAE,KAAK;EACZ,MAAM,EAAE,GAAG;EACX,gBAAgB,EAAE,IAAI;EACtB,GAAG,EAAE,IAAI;EACT,IAAI,EAAE,CAAC;EACP,KAAK,EAAE,CAAC;EACR,MAAM,EAAE,MAAM;EACd,MAAM,EAAE,CAAC;CACV;;;AAOF,AAAD,mBAAW,CAAC;EACV,UAAU,EAAE,KAAK;EACjB,KAAK,EAAE,KAAK;EACZ,iBAAiB,EAAE,SAAS;EAC5B,aAAa,EAAE,GAAG;CACnB"
+	"mappings": ""
 }

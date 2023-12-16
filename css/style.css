@@ -145,6 +145,12 @@ a {
 }
 
 /* line 36, ../../../../../../Html lessons/November 2023/10-mobile-first-DiGi/sass/global.scss */
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+/* line 41, ../../../../../../Html lessons/November 2023/10-mobile-first-DiGi/sass/global.scss */
 .page {
   height: 100%;
   font-family: 'Roboto-Regular', 'Arial', serif;
@@ -153,7 +159,7 @@ a {
   line-height: 17px;
 }
 
-/* line 44, ../../../../../../Html lessons/November 2023/10-mobile-first-DiGi/sass/global.scss */
+/* line 49, ../../../../../../Html lessons/November 2023/10-mobile-first-DiGi/sass/global.scss */
 .page-body {
   min-width: 320px;
   min-height: 100%;
@@ -163,14 +169,14 @@ a {
   margin: 0;
 }
 
-/* line 53, ../../../../../../Html lessons/November 2023/10-mobile-first-DiGi/sass/global.scss */
+/* line 58, ../../../../../../Html lessons/November 2023/10-mobile-first-DiGi/sass/global.scss */
 .container {
   padding: 0 20px;
 }
 
 /*640px*/
 @media (min-width: 640px) {
-  /* line 58, ../../../../../../Html lessons/November 2023/10-mobile-first-DiGi/sass/global.scss */
+  /* line 63, ../../../../../../Html lessons/November 2023/10-mobile-first-DiGi/sass/global.scss */
   .container {
     padding: 0 30px;
   }
@@ -178,7 +184,7 @@ a {
 
 /*768px*/
 @media (min-width: 768px) {
-  /* line 64, ../../../../../../Html lessons/November 2023/10-mobile-first-DiGi/sass/global.scss */
+  /* line 69, ../../../../../../Html lessons/November 2023/10-mobile-first-DiGi/sass/global.scss */
   .container {
     padding: 0 40px;
   }
@@ -186,13 +192,13 @@ a {
 
 /*1440px*/
 @media (min-width: 1440px) {
-  /* line 71, ../../../../../../Html lessons/November 2023/10-mobile-first-DiGi/sass/global.scss */
+  /* line 76, ../../../../../../Html lessons/November 2023/10-mobile-first-DiGi/sass/global.scss */
   .container {
     padding: 0px 150px 0px 61px;
   }
 }
 
-/* line 76, ../../../../../../Html lessons/November 2023/10-mobile-first-DiGi/sass/global.scss */
+/* line 81, ../../../../../../Html lessons/November 2023/10-mobile-first-DiGi/sass/global.scss */
 .title {
   font-size: 24px;
   font-weight: 400;
@@ -201,7 +207,7 @@ a {
 }
 
 /*Button*/
-/* line 84, ../../../../../../Html lessons/November 2023/10-mobile-first-DiGi/sass/global.scss */
+/* line 89, ../../../../../../Html lessons/November 2023/10-mobile-first-DiGi/sass/global.scss */
 .button {
   font-size: 18px;
   font-weight: 500;
@@ -215,14 +221,14 @@ a {
 }
 
 @media (min-width: 320px) {
-  /* line 96, ../../../../../../Html lessons/November 2023/10-mobile-first-DiGi/sass/global.scss */
+  /* line 101, ../../../../../../Html lessons/November 2023/10-mobile-first-DiGi/sass/global.scss */
   .promo .button {
     display: block;
   }
 }
 
 @media (min-width: 640px) {
-  /* line 101, ../../../../../../Html lessons/November 2023/10-mobile-first-DiGi/sass/global.scss */
+  /* line 106, ../../../../../../Html lessons/November 2023/10-mobile-first-DiGi/sass/global.scss */
   .button {
     display: block;
     margin: 0 auto 113px;
@@ -876,7 +882,7 @@ a {
 /* line 1, ../../../../../../Html lessons/November 2023/10-mobile-first-DiGi/sass/blocks/projects.scss */
 .projects {
   text-align: center;
-  /* background: linear-gradient(180deg, #2B4074 0%, rgba(43, 64, 116, 0.00) 100%); */
+  background: linear-gradient(180deg, #2B4074 0%, rgba(43, 64, 116, 0) 100%);
 }
 
 /* line 5, ../../../../../../Html lessons/November 2023/10-mobile-first-DiGi/sass/blocks/projects.scss */
@@ -902,12 +908,122 @@ a {
   bottom: 0;
 }
 
+/* line 26, ../../../../../../Html lessons/November 2023/10-mobile-first-DiGi/sass/blocks/projects.scss */
+.projects__item {
+  margin-bottom: 18px;
+}
+
 /* line 30, ../../../../../../Html lessons/November 2023/10-mobile-first-DiGi/sass/blocks/projects.scss */
+.projects__item img:hover {
+  opacity: 0.5;
+}
+
+/* line 35, ../../../../../../Html lessons/November 2023/10-mobile-first-DiGi/sass/blocks/projects.scss */
 .projects__item-img {
-  min-height: 250px;
-  width: 268px;
-  background-repeat: no-repeat;
   border-radius: 4px;
+  margin-bottom: 20px;
+}
+
+/* line 40, ../../../../../../Html lessons/November 2023/10-mobile-first-DiGi/sass/blocks/projects.scss */
+.projects__item-link {
+  display: block;
+  font-size: 16px;
+  font-weight: 700;
+  letter-spacing: 2px;
+  color: #2B4074;
+}
+
+/* line 49, ../../../../../../Html lessons/November 2023/10-mobile-first-DiGi/sass/blocks/projects.scss */
+.projects__item:last-child {
+  margin-bottom: 0;
+}
+
+@media (min-width: 640px) {
+  /* line 56, ../../../../../../Html lessons/November 2023/10-mobile-first-DiGi/sass/blocks/projects.scss */
+  .projects__title {
+    font-size: 48px;
+    font-weight: 400;
+    padding-top: 40px;
+    margin-bottom: 80px;
+  }
+  /* line 62, ../../../../../../Html lessons/November 2023/10-mobile-first-DiGi/sass/blocks/projects.scss */
+  .projects__title::after {
+    top: 95px;
+  }
+  /* line 67, ../../../../../../Html lessons/November 2023/10-mobile-first-DiGi/sass/blocks/projects.scss */
+  .projects__list {
+    margin-bottom: 86px;
+  }
+  /* line 71, ../../../../../../Html lessons/November 2023/10-mobile-first-DiGi/sass/blocks/projects.scss */
+  .projects__item-link {
+    font-size: 20px;
+  }
+}
+
+@media (min-width: 748px) {
+  /* line 80, ../../../../../../Html lessons/November 2023/10-mobile-first-DiGi/sass/blocks/projects.scss */
+  .projects__title {
+    padding-top: 80px;
+    margin-bottom: 96px;
+  }
+  /* line 84, ../../../../../../Html lessons/November 2023/10-mobile-first-DiGi/sass/blocks/projects.scss */
+  .projects__title::after {
+    top: 135px;
+  }
+  /* line 89, ../../../../../../Html lessons/November 2023/10-mobile-first-DiGi/sass/blocks/projects.scss */
+  .projects__list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-bottom: 120px;
+  }
+  /* line 96, ../../../../../../Html lessons/November 2023/10-mobile-first-DiGi/sass/blocks/projects.scss */
+  .projects__item:nth-last-child(-n+2) {
+    margin-bottom: 0;
+  }
+  /* line 100, ../../../../../../Html lessons/November 2023/10-mobile-first-DiGi/sass/blocks/projects.scss */
+  .projects__item-img {
+    width: 325px;
+    margin-bottom: 23px;
+  }
+  /* line 105, ../../../../../../Html lessons/November 2023/10-mobile-first-DiGi/sass/blocks/projects.scss */
+  .projects__item-link {
+    font-size: 20px;
+    margin-bottom: 25px;
+  }
+  /* line 110, ../../../../../../Html lessons/November 2023/10-mobile-first-DiGi/sass/blocks/projects.scss */
+  .projects__item-link:nth-last-child(-n+2) {
+    margin-bottom: 0;
+  }
+}
+
+@media (min-width: 1024px) {
+  /* line 118, ../../../../../../Html lessons/November 2023/10-mobile-first-DiGi/sass/blocks/projects.scss */
+  .projects__list {
+    margin-bottom: 80px;
+    padding: 0 140px;
+  }
+  /* line 123, ../../../../../../Html lessons/November 2023/10-mobile-first-DiGi/sass/blocks/projects.scss */
+  .projects__item-img {
+    width: 325px;
+    margin-bottom: 29px;
+  }
+  /* line 128, ../../../../../../Html lessons/November 2023/10-mobile-first-DiGi/sass/blocks/projects.scss */
+  .projects__item-link {
+    font-size: 16px;
+    margin-bottom: 25px;
+  }
+}
+
+@media (min-width: 1240px) {
+  /* line 137, ../../../../../../Html lessons/November 2023/10-mobile-first-DiGi/sass/blocks/projects.scss */
+  .projects__list {
+    flex-direction: row;
+    flex-wrap: nowrap;
+    padding: 0 50px;
+    margin-bottom: 80px;
+    gap: 10px;
+  }
 }
 
 /*# sourceMappingURL=style.css.map */
