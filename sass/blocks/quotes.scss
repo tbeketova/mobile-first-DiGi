@@ -1,0 +1,127 @@
+.quotes {
+  &__content {
+    text-align: center;
+  }
+
+  &__content-text {
+    position: relative;
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 26px;
+    color: $text-color;
+    padding: 140px 12px 0;
+    margin-bottom: 20px;
+
+    &::before {
+      content:"\201D";
+      position: absolute;
+      top: 75px;
+      left: 0;
+      right: 0;
+      font-size: 150px;
+      color: $accent;
+    }
+  }
+
+  &__content-text span {
+    font-weight: 700;
+    color: $accent;
+  }
+
+  &__content-author {
+    width: 270px;
+    position: relative;
+    font-size: 20px;
+    font-weight: 700;
+    letter-spacing: 2px;
+    color: $text-color;
+    padding-left: 15px;
+    display: block;
+    margin: 0 auto 40px;
+    
+    &::before {
+      content:"\005F";
+      position: absolute;
+      left: 25px;
+      top: -5px;
+      font-size: 15px;
+      color: $text-color;
+    }
+  }
+
+  &__content-icon {
+    margin-bottom: 85px;
+  }
+}
+
+@media (min-width: 640px) {
+  .quotes {
+    &__content-text {
+      padding-top: 114px;
+      font-size: 32px;
+      line-height: 34px;
+      width: 552px;
+      margin: 0 auto 40px;
+      
+      &::before {
+        top: 50px;
+      }
+    }
+
+    &__content-icon {
+      margin-bottom: 91px;
+    }
+  }
+}
+
+@media (min-width: 768px) {
+  .quotes {
+    &__content-text {
+      width: 687px;
+
+      &::before {
+        font-size: 80px;
+        top: 70px;
+      }
+    }
+
+    &__content-icon {
+      margin-bottom: 86px;
+    }
+  }
+}
+
+@media (min-width: 1024px) {
+  .quotes {
+    &__content-text {
+      text-align: justify;
+      width: 696px;
+      padding-top: 158px;
+      margin-bottom: 45px;
+      
+      &::before {
+        font-size: 80px;
+        top: 90px;
+        text-align: center;
+      }
+    }
+
+    &__content-author {
+      margin-bottom: 80px;
+    }
+
+    &__content-icon {
+      margin-bottom: 131px;
+    }
+  }
+}
+
+@media (min-width: 1440px) {
+  .quotes {
+    &__content-text {
+      width: 900px;
+      padding-top: 144px;
+      margin-bottom: 30px;
+    }
+  }
+}

@@ -1,0 +1,12 @@
+{
+	"version": 3,
+	"file": "quotes.css",
+	"sources": [
+		"../../sass/blocks/quotes.scss"
+	],
+	"sourcesContent": [
+		""
+	],
+	"names": [],
+	"mappings": ""
+}

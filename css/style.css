@@ -194,7 +194,7 @@ img {
 @media (min-width: 1440px) {
   /* line 76, ../../../../../../Html lessons/November 2023/10-mobile-first-DiGi/sass/global.scss */
   .container {
-    padding: 0px 150px 0px 61px;
+    padding: 0px 110px 0px 100px;
   }
 }
 
@@ -1231,6 +1231,135 @@ img {
   /* line 196, ../../../../../../Html lessons/November 2023/10-mobile-first-DiGi/sass/blocks/team.scss */
   .team__content-text {
     margin-bottom: 90px;
+  }
+}
+
+/* line 2, ../../../../../../Html lessons/November 2023/10-mobile-first-DiGi/sass/blocks/quotes.scss */
+.quotes__content {
+  text-align: center;
+}
+
+/* line 6, ../../../../../../Html lessons/November 2023/10-mobile-first-DiGi/sass/blocks/quotes.scss */
+.quotes__content-text {
+  position: relative;
+  font-size: 24px;
+  font-weight: 400;
+  line-height: 26px;
+  color: #4A4A4A;
+  padding: 140px 12px 0;
+  margin-bottom: 20px;
+}
+
+/* line 15, ../../../../../../Html lessons/November 2023/10-mobile-first-DiGi/sass/blocks/quotes.scss */
+.quotes__content-text::before {
+  content: "\201D";
+  position: absolute;
+  top: 75px;
+  left: 0;
+  right: 0;
+  font-size: 150px;
+  color: #2B4074;
+}
+
+/* line 26, ../../../../../../Html lessons/November 2023/10-mobile-first-DiGi/sass/blocks/quotes.scss */
+.quotes__content-text span {
+  font-weight: 700;
+  color: #2B4074;
+}
+
+/* line 31, ../../../../../../Html lessons/November 2023/10-mobile-first-DiGi/sass/blocks/quotes.scss */
+.quotes__content-author {
+  width: 270px;
+  position: relative;
+  font-size: 20px;
+  font-weight: 700;
+  letter-spacing: 2px;
+  color: #4A4A4A;
+  padding-left: 15px;
+  display: block;
+  margin: 0 auto 40px;
+}
+
+/* line 42, ../../../../../../Html lessons/November 2023/10-mobile-first-DiGi/sass/blocks/quotes.scss */
+.quotes__content-author::before {
+  content: "\005F";
+  position: absolute;
+  left: 25px;
+  top: -5px;
+  font-size: 15px;
+  color: #4A4A4A;
+}
+
+/* line 52, ../../../../../../Html lessons/November 2023/10-mobile-first-DiGi/sass/blocks/quotes.scss */
+.quotes__content-icon {
+  margin-bottom: 85px;
+}
+
+@media (min-width: 640px) {
+  /* line 59, ../../../../../../Html lessons/November 2023/10-mobile-first-DiGi/sass/blocks/quotes.scss */
+  .quotes__content-text {
+    padding-top: 114px;
+    font-size: 32px;
+    line-height: 34px;
+    width: 552px;
+    margin: 0 auto 40px;
+  }
+  /* line 66, ../../../../../../Html lessons/November 2023/10-mobile-first-DiGi/sass/blocks/quotes.scss */
+  .quotes__content-text::before {
+    top: 50px;
+  }
+  /* line 71, ../../../../../../Html lessons/November 2023/10-mobile-first-DiGi/sass/blocks/quotes.scss */
+  .quotes__content-icon {
+    margin-bottom: 91px;
+  }
+}
+
+@media (min-width: 768px) {
+  /* line 79, ../../../../../../Html lessons/November 2023/10-mobile-first-DiGi/sass/blocks/quotes.scss */
+  .quotes__content-text {
+    width: 687px;
+  }
+  /* line 82, ../../../../../../Html lessons/November 2023/10-mobile-first-DiGi/sass/blocks/quotes.scss */
+  .quotes__content-text::before {
+    font-size: 80px;
+    top: 70px;
+  }
+  /* line 88, ../../../../../../Html lessons/November 2023/10-mobile-first-DiGi/sass/blocks/quotes.scss */
+  .quotes__content-icon {
+    margin-bottom: 86px;
+  }
+}
+
+@media (min-width: 1024px) {
+  /* line 96, ../../../../../../Html lessons/November 2023/10-mobile-first-DiGi/sass/blocks/quotes.scss */
+  .quotes__content-text {
+    text-align: justify;
+    width: 696px;
+    padding-top: 158px;
+    margin-bottom: 45px;
+  }
+  /* line 102, ../../../../../../Html lessons/November 2023/10-mobile-first-DiGi/sass/blocks/quotes.scss */
+  .quotes__content-text::before {
+    font-size: 80px;
+    top: 90px;
+    text-align: center;
+  }
+  /* line 109, ../../../../../../Html lessons/November 2023/10-mobile-first-DiGi/sass/blocks/quotes.scss */
+  .quotes__content-author {
+    margin-bottom: 80px;
+  }
+  /* line 113, ../../../../../../Html lessons/November 2023/10-mobile-first-DiGi/sass/blocks/quotes.scss */
+  .quotes__content-icon {
+    margin-bottom: 131px;
+  }
+}
+
+@media (min-width: 1440px) {
+  /* line 121, ../../../../../../Html lessons/November 2023/10-mobile-first-DiGi/sass/blocks/quotes.scss */
+  .quotes__content-text {
+    width: 900px;
+    padding-top: 144px;
+    margin-bottom: 30px;
   }
 }
 
