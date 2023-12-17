@@ -156,14 +156,14 @@ img {
 }
 
 @media (min-width: 320px) {
-  /* line 101, ../../../../../../Html lessons/November 2023/10-mobile-first-DiGi/sass/global.scss */
+  /* line 102, ../../../../../../Html lessons/November 2023/10-mobile-first-DiGi/sass/global.scss */
   .promo .button {
     display: block;
   }
 }
 
 @media (min-width: 640px) {
-  /* line 106, ../../../../../../Html lessons/November 2023/10-mobile-first-DiGi/sass/global.scss */
+  /* line 107, ../../../../../../Html lessons/November 2023/10-mobile-first-DiGi/sass/global.scss */
   .button {
     display: block;
     margin: 0 auto 113px;

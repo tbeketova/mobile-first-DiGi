@@ -1,0 +1,12 @@
+{
+	"version": 3,
+	"file": "team.css",
+	"sources": [
+		"../../sass/blocks/team.scss"
+	],
+	"sourcesContent": [
+		".team {\r\n  &__inner-img {\r\n    margin-bottom: 43px;\r\n  }\r\n\r\n  &__content-title {\r\n    position: relative;\r\n    text-align: center;\r\n    color: #4A4A4A;\r\n    margin-bottom: 51px;\r\n\r\n    &::after {\r\n      content: \"\";\r\n      position: absolute;\r\n      width: 100px;\r\n      height: 8px;\r\n      background-color: #fff;\r\n      top: 0px;\r\n      left: 0;\r\n      right: 0;\r\n      margin: 0 auto;\r\n      bottom: 0;\r\n    }\r\n  }\r\n}\r\n\r\n"
+	],
+	"names": [],
+	"mappings": ";AACG,AAAD,gBAAY,CAAC;EACX,aAAa,EAAE,IAAI;CACpB;;;AAEA,AAAD,oBAAgB,CAAC;EACf,QAAQ,EAAE,QAAQ;EAClB,UAAU,EAAE,MAAM;EAClB,KAAK,EAAE,OAAO;EACd,aAAa,EAAE,IAAI;CAcpB;;;AAlBA,AAMC,oBANc,AAMb,OAAO,CAAC;EACP,OAAO,EAAE,EAAE;EACX,QAAQ,EAAE,QAAQ;EAClB,KAAK,EAAE,KAAK;EACZ,MAAM,EAAE,GAAG;EACX,gBAAgB,EAAE,IAAI;EACtB,GAAG,EAAE,GAAG;EACR,IAAI,EAAE,CAAC;EACP,KAAK,EAAE,CAAC;EACR,MAAM,EAAE,MAAM;EACd,MAAM,EAAE,CAAC;CACV"
+}

@@ -1,0 +1,28 @@
+/* line 2, ../../../../../../Html lessons/November 2023/10-mobile-first-DiGi/sass/blocks/team.scss */
+.team__inner-img {
+  margin-bottom: 43px;
+}
+
+/* line 6, ../../../../../../Html lessons/November 2023/10-mobile-first-DiGi/sass/blocks/team.scss */
+.team__content-title {
+  position: relative;
+  text-align: center;
+  color: #4A4A4A;
+  margin-bottom: 51px;
+}
+
+/* line 12, ../../../../../../Html lessons/November 2023/10-mobile-first-DiGi/sass/blocks/team.scss */
+.team__content-title::after {
+  content: "";
+  position: absolute;
+  width: 100px;
+  height: 8px;
+  background-color: #fff;
+  top: 0px;
+  left: 0;
+  right: 0;
+  margin: 0 auto;
+  bottom: 0;
+}
+
+/*# sourceMappingURL=team.css.map */

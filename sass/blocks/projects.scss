@@ -12,8 +12,8 @@
     &::after {
       content: "";
       position: absolute;
-      width: 100px;
-      height: 8px;
+      width: 50px;
+      height: 8px;   
       background-color: #fff;
       top: 65px;
       left: 0;
@@ -21,6 +21,10 @@
       margin: 0 auto;
       bottom: 0;
     }
+  }
+
+  &__list {
+    margin-bottom: 60px;
   }
 
   &__item {
@@ -60,6 +64,7 @@
       margin-bottom: 80px;
 
       &::after {
+        width: 100px;
         top: 95px;
       }
     }
@@ -75,7 +80,7 @@
   }
 }
 
-@media (min-width: 748px) {
+@media (min-width: 768px) {
   .projects {
     &__title {
       padding-top: 80px;
@@ -132,7 +137,7 @@
   }
 }
 
-@media (min-width: 1240px) {
+@media (min-width: 1440px) {
   .projects {
     &__list {
       flex-direction: row;
