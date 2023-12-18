@@ -1,0 +1,12 @@
+{
+	"version": 3,
+	"file": "news.css",
+	"sources": [
+		"../../sass/blocks/news.scss"
+	],
+	"sourcesContent": [
+		".news {\r\n  &__bar {\r\n    background-color: #fff;\r\n  }\r\n}"
+	],
+	"names": [],
+	"mappings": ";AACG,AAAD,UAAM,CAAC;EACL,gBAAgB,EAAE,IAAI;CACvB"
+}
