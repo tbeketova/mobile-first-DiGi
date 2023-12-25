@@ -5,7 +5,7 @@
 		"../../sass/blocks/footer.scss"
 	],
 	"sourcesContent": [
-		" "
+		".footer {\r\n  &-bar {\r\n    \r\n  }\r\n}\r\n.footer-bar {\r\n  \r\n}"
 	],
 	"names": [],
 	"mappings": ""
