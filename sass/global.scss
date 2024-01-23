@@ -1,14 +1,10 @@
 @import 'fonts';
 @import 'var';
 
-html {
-  box-sizing: border-box;
-}
-
 *,
 *::after,
 *::before {
-  box-sizing: inherit;
+  box-sizing: border-box;
 }
 
 h1,
